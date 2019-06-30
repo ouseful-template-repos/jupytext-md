@@ -1,2 +1,5 @@
 # Install Jupytext
 jupytext
+
+#Add support for nbgitpuller so we can use this repo as a Binder base box
+nbgitpuller
