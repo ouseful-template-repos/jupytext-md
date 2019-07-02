@@ -1,5 +1,5 @@
 # jupytext-md
-Devine a BinderHub environments that supports Jupytext dualled markdown and ipynb files.
+Define a BinderHub environment that supports Jupytext dualled markdown and ipynb files.
 
 Any `.ipynb` files created in a top-level `notebooks` directory will be dualled with a Jupytext markdown file in a top level `markdown` directory, and *vice versa*.
 
