@@ -2,7 +2,6 @@
 
 ## Create required directories
 mkdir -p .jupyter
-mkdir -p markdown
 
 echo 'c.NotebookApp.contents_manager_class = "jupytext.TextFileContentsManager"' >> .jupyter/jupyter_notebook_config.py
-echo 'c.ContentsManager.default_jupytext_formats = "markdown//md"' >> .jupyter/jupyter_notebook_config.py
+echo 'c.ContentsManager.default_jupytext_formats = "md"' >> .jupyter/jupyter_notebook_config.py
