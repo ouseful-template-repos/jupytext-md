@@ -3,6 +3,8 @@ Define a BinderHub environment that supports Jupytext dualled python (`.py`) and
 
 Any `.ipynb` files created in a top-level `notebooks` directory will be paired with a Jupytext markdown file in a top level `py` directory, and *vice versa*.
 
+If you mark code cells with `{"active": "ipynb"}` metadata (from a notebook menu, `View -> Cell Toolbar -> Edit Metadata`), then those code cells will be commented out in the saved `py` file ([docs](https://jupytext.readthedocs.io/en/latest/examples.html#importing-jupyter-notebooks-as-modules)).
+
 When run using BinderHub/`repo2docker`, the `notebooks` and `py` directories will be automatically created if they do not already exist.
 
 Files in subdirectories will not be paired.
