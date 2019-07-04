@@ -25,6 +25,6 @@ def hello(msg='Hello'):
 # #It should run as code in the notebook but not be loaded in as a py module
 # -
 
-# !cat ../py/HiddenCode.py
+# !cat HiddenCode.py
 
 
