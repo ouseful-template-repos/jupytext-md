@@ -4,4 +4,5 @@
 mkdir -p .jupyter
 
 echo 'c.NotebookApp.contents_manager_class = "jupytext.TextFileContentsManager"' >> .jupyter/jupyter_notebook_config.py
-echo 'c.ContentsManager.default_jupytext_formats = "py"' >> .jupyter/jupyter_notebook_config.py
+#We don't need to do anything for text files to be editable...
+#echo 'c.ContentsManager.default_jupytext_formats = "py"' >> .jupyter/jupyter_notebook_config.py
