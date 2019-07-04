@@ -14,7 +14,7 @@
 
 # # Hidden Code
 #
-# This notebook / py file contains code cells that are marked as executable in the notebook but commented out in the `.py` file.
+# This notebook editable py file contains code cells that are commented out in the `.py` file.
 
 def hello(msg='Hello'):
     print(msg)
