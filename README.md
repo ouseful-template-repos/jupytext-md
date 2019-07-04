@@ -11,10 +11,10 @@ You can change the directory names (for example, you could use a hidden director
 
 If you have downloaded this repo, you can build and run it locally on the command line from the top level of the directory:
 
-`repo2docker --image-name jupytextmd --user-name jovyan --volume notebooks:/home/jovyan/notebooks --volume markdown:/home/jovyan/markdown .`
+`repo2docker --image-name jupytextnbmd --user-name jovyan --volume .:/home/jovyan .`
 
 If `notebooks` and `markdown` directories exist in the host directory, you can mount them as volumes against the corresponding directories inside the container:
 
-`repo2docker --image-name jupytextmd --user-name jovyan --volume notebooks:/home/jovyan/notebooks --volume markdown:/home/jovyan/markdown .`
+`repo2docker --image-name jupytextnbmd --user-name jovyan --volume notebooks:/home/jovyan/notebooks --volume markdown:/home/jovyan/markdown .`
 
 `nbgitpuller` is also installed so you can use this container as a Jupytext base container.
